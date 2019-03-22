@@ -69,7 +69,7 @@ function draw() {
 
   textFont("Economica")
   textSize(18)
-  text("Don't miss.", width/4,height/2+25)
+  text("Click interesting bubs. Don't miss.", width/4,height/2+25)
 
 }
 
