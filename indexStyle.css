@@ -1,0 +1,17 @@
+h1{
+  font-family: 'Playfair Displayy SC';
+  text-shadow: 6px 4px #AAAAAA;
+}
+
+body {
+  font-family: 'Playfair Display';
+}
+
+#type{
+  font-style: italic;
+}
+
+div {
+  margin-left: 25%;
+  margin-top: 25%
+}
