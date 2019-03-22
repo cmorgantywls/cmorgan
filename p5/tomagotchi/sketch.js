@@ -24,6 +24,9 @@ function draw() {
   text("MEET",width/2,height/2-150)
   textSize(40)
   text(names[nameSelector],width/2,height/2-100)
+  text("Bored " + names[nameSelector] + " turns blue.\n Hungry " +
+      names[nameSelector] + " turns red. \n Click buttons a lot to care for your pet!",
+      width/2,height/2-75)
 
   textAlign(LEFT)
   thePet.display()
