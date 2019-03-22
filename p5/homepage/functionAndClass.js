@@ -85,7 +85,7 @@ class interestingBub extends BubBub{
     let bubDist = dist(mouseX,mouseY,this.x,this.y)
     if (bubNum==2 && bubDist<this.diameter){
     console.log("fun click")
-    window.open("p5/tomagotchi/index.html")
+    window.open("https://cmorgantywls.github.io/p5/tomagotchi/index.html")
     }
   }
 
