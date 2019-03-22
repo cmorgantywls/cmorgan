@@ -35,6 +35,7 @@ class BubBub{
 
    if(bubDist<this.diameter/2){
     console.log("clicky")
+    multiBubs.push(new BubBub(random(200,400),random(200,400)));
    }
   }
 

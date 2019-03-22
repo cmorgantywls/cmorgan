@@ -87,7 +87,6 @@ function mouseClicked(){
      }
     else{
       floaties[i].bubClick();
-      multiBubs.push(new BubBub(random(200,400),random(200,400)));
     }
    }
 }
