@@ -78,6 +78,7 @@ class interestingBub extends BubBub{
     let bubDist = dist(mouseX,mouseY,this.x,this.y)
    if (bubNum==1 && bubDist<this.diameter){
     console.log("resume click")
+    window.open("https://cmorgantywls.github.io/resume/resume.html")
     }
   }
 
