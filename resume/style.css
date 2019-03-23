@@ -1,0 +1,53 @@
+body{
+  font-family: 'Economica', sans-serif;
+  margin: 20px;
+}
+
+a{
+  color: tomato;
+}
+
+a:hover{
+  color: black;
+  background-color: yellow;
+}
+
+#container1{
+  display: grid;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-template-columns: auto 60%;
+  grid-column-gap: 5px;
+}
+
+#container2{
+  display: grid;
+  grid-template-columns: 60% auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-column-gap: 5px;
+}
+
+#contact{
+  text-align: right;
+  margin-right: 20px;
+}
+
+#profile{
+  margin-right: 20px;
+}
+
+#expColumn{
+  text-align: right;
+  padding-right: 15px;
+}
+
+#name{
+  font-family: 'Megrim';
+  grid-column: span 2;
+  text-align: center;
+}
+
+.header{
+  font-family: 'Megrim';
+}
