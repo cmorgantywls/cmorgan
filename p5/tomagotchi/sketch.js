@@ -10,6 +10,9 @@ function setup() {
            "Kevin","Toby","Kelly","Ryan","Darryl","Phyllis","Bob Vance","Karen",
            "Jan"]
   nameSelector = int(random(0,names.length))
+
+  let thelink=createA('https://cmorgantywls.github.io/p5/homepage/index.html', 'home')
+  thelink.position(width/2, 500);
 }
 
 function draw() {
