@@ -12,7 +12,7 @@ function setup() {
   nameSelector = int(random(0,names.length))
 
   let thelink=createA('https://cmorgantywls.github.io/p5/homepage/index.html', 'home')
-  thelink.position(width/2, 500);
+  thelink.position(width/2, height-100);
 }
 
 function draw() {
