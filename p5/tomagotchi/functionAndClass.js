@@ -19,8 +19,8 @@ class Tomagotchi{
  }
 
   display(){
-  text("Hunger: "+this.hunger,width/8*2,10)
-  text("Fun: "+this.fun,width/8,20)
+  text("Hunger: "+this.hunger,20,20)
+  text("Fun: "+this.fun,20,30)
 
     if(this.fun>900 && this.hunger>500){
       //content pet
