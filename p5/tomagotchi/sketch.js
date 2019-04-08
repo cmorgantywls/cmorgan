@@ -20,7 +20,7 @@ function draw() {
   let secs = createTimer()
   text(secs,10,10)
   text("Health: ${thePet.hunger}",10,20)
-  text("Fun: ${thePet.fun}",10,20)
+  text("Fun: ${thePet.fun}",10,30)
 
   fill(0)
   textFont("Megrim")
