@@ -24,7 +24,7 @@ function draw() {
   textFont("Megrim")
   textSize(20)
   textAlign(CENTER)
-  text("MEET",width/2,height/2-150)
+  text("MEET"+thePet.fun,width/2,height/2-150)
   textSize(40)
   text(names[nameSelector],width/2,height/2-100)
   textSize(16)
