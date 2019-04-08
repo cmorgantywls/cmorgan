@@ -20,7 +20,7 @@ class Tomagotchi{
 
   display(){
   text("Hunger: "+this.hunger,20,20)
-  text("Fun: "+this.fun,20,30)
+  text("Fun: "+this.fun,20,35)
 
     if(this.fun>900 && this.hunger>500){
       //content pet
