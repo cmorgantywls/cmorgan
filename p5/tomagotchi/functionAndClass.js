@@ -19,6 +19,9 @@ class Tomagotchi{
  }
 
   display(){
+  text("Hunger: "+this.hunger,width/8*2,10)
+  text("Fun: "+this.fun,width/8,20)
+
     if(this.fun>900 && this.hunger>500){
       //content pet
       strokeWeight(0);
@@ -78,14 +81,12 @@ class Tomagotchi{
   funChange(seconds){
     if(seconds%10==0){
       this.fun -= 1
-      text("Fun: "+this.fun,width/8,10)
       console.log(this.fun)
     }
   }
 
   hungerChange(seconds){
     if(seconds%5==0){
-      text("Hunger: "+this.hunger,width/8*2,10)
       this.hunger-=1
     }
   }
