@@ -1,0 +1,49 @@
+#container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 5px;
+  text-align: center;
+  font-family: 'Helvetica',sans-serif;
+}
+
+.bodyWin{
+  background-image: linear-gradient(to right, #d41a8b, #b760ce, #808df8, #33b0ff, #00ccff, #00dafa, #00e7ed, #00f2d8, #3cf5b8, #6ef692, #9bf467, #c9ee38);
+  background-position: center;
+  background-size: cover;
+ }
+
+ .kindaBody{
+   background-image: linear-gradient(to right top, #c0478c, #b95ca7, #ae70be, #a182d0, #9493dd, #85a2ea, #75b1f3, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+   background-position: center;
+   background-size: cover;
+ }
+
+ .loseBody{
+   background-image: linear-gradient(to bottom, #71af53, #6ba147, #64923b, #5d8530, #567725, #5c7d22, #62831e, #688919, #7fa519, #97c317, #b0e010, #cbff00);
+   background-position: center;
+   background-size: cover;
+ }
+
+#title{
+  grid-column: span 5;
+}
+
+#instructions{
+ grid-column: span 3;
+}
+
+#jeanralphio{
+  grid-column: span 2;
+}
+
+#playButton{
+  grid-column: span 3;
+  background-color: #FFA526;
+  padding: 10px;
+}
+
+#cashOut{
+  grid-column: span 2;
+  background-color: #FF4733;
+  padding: 10px;
+}
