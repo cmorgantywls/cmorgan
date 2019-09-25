@@ -52,7 +52,7 @@ function draw() {
       floaties[i].resumeText(bubNum)
        floaties[i].funText(bubNum)
        floaties[i].usefulText(bubNum)
-       floaties[i].mysticText(bubNum)
+       // floaties[i].mysticText(bubNum)
        //console.log(bubNum)
      }
 
@@ -84,7 +84,7 @@ function mouseClicked(){
       floaties[i].resumeClick(bubNum2)
        floaties[i].funClick(bubNum2)
        floaties[i].usefulClick(bubNum2)
-       floaties[i].mysticClick(bubNum2)
+       // floaties[i].mysticClick(bubNum2)
        //console.log(bubNum)
      }
     else{
