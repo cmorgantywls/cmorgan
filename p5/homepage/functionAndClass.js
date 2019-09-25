@@ -109,7 +109,7 @@ class interestingBub extends BubBub{
 
   mysticClick(bubNum){
     let bubDist = dist(mouseX,mouseY,this.x,this.y)
-    if (bubNum==3 && bubDist<this.diameter){
+    if (bubNum==4 && bubDist<this.diameter){
     console.log("mystic click")
     window.open("https://zodiacflaskproject.herokuapp.com/")
     }
