@@ -20,7 +20,7 @@ function setup() {
 
 
     noStroke();
-  for (var i = 0; i < 10; i++) {
+  for (var i = 0; i < 13; i++) {
     //makes sure to generate 10 bubbles
     var x = random(200,400);
     //sets a random location for x and y
@@ -52,6 +52,7 @@ function draw() {
       floaties[i].resumeText(bubNum)
        floaties[i].funText(bubNum)
        floaties[i].usefulText(bubNum)
+       floaties[i].mysticText(bubNum)
        //console.log(bubNum)
      }
 
@@ -83,6 +84,7 @@ function mouseClicked(){
       floaties[i].resumeClick(bubNum2)
        floaties[i].funClick(bubNum2)
        floaties[i].usefulClick(bubNum2)
+       floaties[i].mysticClick(bubNum2)
        // floaties[i].mysticClick(bubNum2)
        //console.log(bubNum)
      }
