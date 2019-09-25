@@ -1,4 +1,3 @@
-
 class BubBub{
  constructor(x,y){
    this.x = x;
@@ -73,14 +72,14 @@ class interestingBub extends BubBub{
     text("a useful \n thing", this.x-20,this.y)
    }
 
-  //  mysticText(bubNum){
-  //   if (bubNum==4){
-  //     fill(0)
-  //    textFont("Economica")
-  //    textSize(16)
-  //    text("a mystic \n thing", this.x-20,this.y)
-  //   }
-  // }
+   mysticText(bubNum){
+    if (bubNum==4){
+      fill(0)
+     textFont("Economica")
+     textSize(16)
+     text("a mystic \n thing", this.x-20,this.y)
+    }
+  }
 
   resumeClick(bubNum){
     let bubDist = dist(mouseX,mouseY,this.x,this.y)
@@ -107,12 +106,12 @@ class interestingBub extends BubBub{
 
   }
 
-  // mysticClick(bubNum){
-  //   let bubDist = dist(mouseX,mouseY,this.x,this.y)
-  //   if (bubNum==4 && bubDist<this.diameter){
-  //   console.log("mystic click")
-  //   window.open("https://zodiacflaskproject.herokuapp.com/")
-  //   }
-  //
-  // }
+  mysticClick(bubNum){
+    let bubDist = dist(mouseX,mouseY,this.x,this.y)
+    if (bubNum==4 && bubDist<this.diameter){
+    console.log("mystic click")
+    window.open("https://zodiacflaskproject.herokuapp.com/")
+    }
+
+  }
 }

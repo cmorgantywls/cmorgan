@@ -52,7 +52,6 @@ function draw() {
       floaties[i].resumeText(bubNum)
        floaties[i].funText(bubNum)
        floaties[i].usefulText(bubNum)
-       // floaties[i].mysticText(bubNum)
        //console.log(bubNum)
      }
 
