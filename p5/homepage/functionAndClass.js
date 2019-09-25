@@ -71,6 +71,7 @@ class interestingBub extends BubBub{
     textSize(16)
     text("a useful \n thing", this.x-20,this.y)
    }
+ }
 
    mysticText(bubNum){
     if (bubNum==4){
