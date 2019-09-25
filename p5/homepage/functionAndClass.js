@@ -72,6 +72,14 @@ class interestingBub extends BubBub{
     textSize(16)
     text("a useful \n thing", this.x-20,this.y)
    }
+
+   mysticText(bubNum){
+    if (bubNum==4){
+      fill(0)
+     textFont("Economica")
+     textSize(16)
+     text("a mystic \n thing", this.x-20,this.y)
+    }
   }
 
   resumeClick(bubNum){
@@ -94,6 +102,16 @@ class interestingBub extends BubBub{
     let bubDist = dist(mouseX,mouseY,this.x,this.y)
     if (bubNum==3 && bubDist<this.diameter){
     console.log("useful click")
+    window.open("https://github.com/nycdoe-cs4all/icm")
+    }
+
+  }
+
+  mysticClick(bubNum){
+    let bubDist = dist(mouseX,mouseY,this.x,this.y)
+    if (bubNum==3 && bubDist<this.diameter){
+    console.log("mystic click")
+    window.open("https://zodiacflaskproject.herokuapp.com/")
     }
 
   }

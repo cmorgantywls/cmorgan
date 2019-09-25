@@ -83,6 +83,7 @@ function mouseClicked(){
       floaties[i].resumeClick(bubNum2)
        floaties[i].funClick(bubNum2)
        floaties[i].usefulClick(bubNum2)
+       floaties[i].mysticClick(bubNum2)
        //console.log(bubNum)
      }
     else{
