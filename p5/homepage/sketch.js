@@ -20,7 +20,7 @@ function setup() {
 
 
     noStroke();
-  for (var i = 0; i < 13; i++) {
+  for (var i = 0; i < 10; i++) {
     //makes sure to generate 10 bubbles
     var x = random(200,400);
     //sets a random location for x and y
